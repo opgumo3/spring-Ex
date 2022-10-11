@@ -7,7 +7,6 @@ public class MessageSenderService {
   MessageSender messageSender;
 
   public MessageSenderService() {
-
   }
 
   public MessageSenderService(MessageSender messageSender) {
@@ -15,6 +14,6 @@ public class MessageSenderService {
   }
 
   public void doSendMessage() {
-    messageSender.sendMessage(new User("a@a.com", "010-0000-0000"), "this is message!");
+    messageSender.sendMessage(new User("abcdef@naver.com", "010-0000-0000"), "this is message!");
   }
 }
